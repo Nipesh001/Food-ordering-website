@@ -30,7 +30,7 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route
           path="/buy/:foodId"
-          element={user ? <Buy /> : <Navigate to={"/login"} />}
+          element={ <Buy />}
         />
 
         {/* Admin Routes */}
